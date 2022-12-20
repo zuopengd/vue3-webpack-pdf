@@ -8,9 +8,13 @@ npm install --save vue3-webpack-pdf
 
 ## 全局引入
 ```js
+import { createApp } from "vue";
 import pdf from 'vue3-webpack-pdf';
 
-Vue.use(pdf);
+const app = createApp(App);
+app
+  .use(pdf)
+  .mount("#app");
 ```
 ```base
 <template>
