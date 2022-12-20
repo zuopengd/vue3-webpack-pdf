@@ -1,0 +1,31 @@
+.vue3-pdf {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+}
+
+.vue3-pdf .page {
+  position: relative;
+}
+
+.vue3-pdf .page .loading {
+  display: block;
+  background-image: url("./loading.svg");
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -15px;
+}
+
+.vue3-pdf .page.complete .loading {
+  display: none;
+}
+
+.vue3-pdf .page canvas {
+  width: 100%;
+}
