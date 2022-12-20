@@ -31,4 +31,4 @@ const url = ref("https://zuopengd.github.io/vue-pdf3/dist/欢迎使用WPS Office
 [vue3-webpack-pdf 演示链接](https://zuopengd.github.io/vue2-pdf/dist/index.html)
 
 ## 浏览器支持
-与 [Vue.js 3](https://github.com/vuejs/vue/blob/dev/README.md) 相同
+与 [Vue.js 3](https://github.com/vuejs/core/blob/main/README.md) 相同
