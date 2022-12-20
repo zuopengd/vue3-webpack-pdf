@@ -49,7 +49,6 @@ export default {
       loadingTask.__PDFDocumentLoadingTask = true;
 
       loadingTask.promise.then((pdf) => {
-        console.log(pdf);
         let pdfPages = pdf.numPages;
         for (let i = 1; i <= pdfPages; i++) {
           pdf.getPage(i).then((page) => {

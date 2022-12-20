@@ -1,8 +1,8 @@
 {
   "name": "vue3-webpack-pdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于Vue3 + webpack + PDF.js版的PDF预览插件",
-  "main": "viewer.js",
+  "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
